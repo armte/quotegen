@@ -25,12 +25,14 @@ body {
   margin: 15% auto;
   background: rgba(255, 255, 255, 0.6);
   border-radius: 6px;
+  position: relative;
+  z-index: -1;
   }
 /*Gives the children divs margin formatting*/
 #quote-box div {
   margin: 15px auto;
 }
-/*Formats the dive that contains the quotation mark icons and the quote itself*/
+/*Formats the div that contains the quotation mark icons and the quote itself*/
 #quote-row {
   text-align: center;
   color: #6C5C5C;
