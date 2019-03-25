@@ -68,7 +68,8 @@ body {
   border-radius: 3px;
   margin: 10px 0px;
   text-decoration: none;
-  z-index: 2;
+  position:relative;
+  z-index: 5;
 }
 /*Sets teh size and positioning of the button to tweet the quote*/
 .tweet-quote {
