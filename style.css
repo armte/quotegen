@@ -1,0 +1,93 @@
+body {
+  width: 100%;
+  font-family: Vollkorn;
+  font-size: 2.0em; 
+}
+/*Sets the background picture to cover the entire page*/
+.wallpaper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("https://armte.github.io/img/landscape1.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  z-index: -9999;
+}
+
+/*This styles the div class that creates the box on the page that contains the quote, author and buttons*/
+#quote-box {
+  width: 50%;
+  max-height: 100vh;
+  margin: 15% auto;
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 6px;
+  }
+/*Gives the children divs margin formatting*/
+#quote-box div {
+  margin: 15px auto;
+}
+/*Formats the dive that contains the quotation mark icons and the quote itself*/
+#quote-row {
+  text-align: center;
+  color: #6C5C5C;
+}
+/*Creates space between the quotation marks and the quote*/
+.random-quote {
+  margin-left: 5px;
+  margin-right: 4px;
+}
+/*Sets the authors name to the right of the quote-box's center*/
+.quote-author {
+  text-align: right;
+  color: #6C5C5C;
+}
+/*Sizes the text within the span that contains the author's name and sets the margins.*/
+.author-name {
+  margin: 20px 20px;
+  font-size: 0.85em;
+}
+/*Sets the width and positioning for the div that contains the buttons*/
+.button-row {
+  width: 100%;
+  margin-bottom: 20px;
+  position: relative;
+  bottom: 10px;
+}
+/*Sets sizing, color and formatting to the buttons*/
+.button {
+  font-size: 0.85em;
+  color: #fff;
+  background-color: #6C5C5C;
+  height: 40px;
+  padding: 8px 10px 0px 10px;
+  border-radius: 3px;
+  margin: 10px 0px;
+  text-decoration: none;
+}
+/*Sets teh size and positioning of the button to tweet the quote*/
+.tweet-quote {
+  font-size: 1em; 
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  position: absolute;
+  }
+/*Removes default formatting from hover function and gives it new formatting*/
+.button:hover {
+  text-decoration: none !important;
+  color: #fff;
+  opacity: 0.5;
+}
+/*Removes default formatting to buttons after they have been clicked*/
+a, a:visited {
+  text-decoration: none !important;
+  color: #fff;
+}
+/*Positions the button to retrieve a new quote to the right side of the box*/
+.new-quote-btn {
+  float: right;
+}
